@@ -1,50 +1,4 @@
-charset="us-ascii"
-From ftp-wg-owner@hethmon.com Tue May 26 15:41 CDT 1998
-Received: from ftm.disa.mil by www.disa.mil (SMI-8.6/SMI-SVR4)
-	id QAA23321; Tue, 26 May 1998 16:15:57 -0400
-Message-ID: <356B25D6.2A1920CD@ftm.disa.mil>
-X-Mailer: Mozilla 4.03 [en] (WinNT; U)
-MIME-Version: 1.0
-Date: Tue, 26 May 1998 16:32:47 -0400
-X-OldDate:   Tue, 26 May 1998 16:28:07 -0400
-Sender: ftp-wg-owner <ftp-wg-owner@hethmon.com>
-X-Listname: ftp-wg@hethmon.com
-Reply-To: FTPEXT Working Group <ftp-wg@hethmon.com>
-From: Bill Curtin <curtinw@ftm.disa.mil>
-To: ftp-wg@hethmon.com
-Subject: Ftp-WG:   v5 of I18N draft
-Content-Length: 204493
-Status: OR
-X-Sun-Content-Length: 204492
-
-<HTML>
-Sorry for the delay. Below is the 5th edition of the I18N draft. I believe
-it incorporates all of the suggestions sent to the list. I've also sent
-a copy to the ID editor.
-
-<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-bill
-
-<P>
-<HR WIDTH="100%">
-<BR>&nbsp;
-<BR>&nbsp;
-<BR>&nbsp;
-<BR>&nbsp;
-<BR>&nbsp;
-<BR>&nbsp;
-<BR>&nbsp;
-
-<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;
-FTPEXT Working Group&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-B. Curtin</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-INTERNET DRAFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Defense Information Systems Agency</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Expires 01 December 1998&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-01 June, 1998</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;<FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>
+er"><FONT SIZE=-1></FONT></FONT>&nbsp;<FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>
 
 <P><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Internationalization of the File Transfer Protocol</FONT></FONT>
@@ -101,51 +55,7 @@ the Internet Engineering Task Force (IETF) at</FONT></FONT>
 <BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &lt;ftp-wg@hops.ag.utk.edu>. Subscription address is</FONT></FONT>
 <BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;ftp-wg-request@hops.ag.utk.edu>. Discussions of the group</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-are archived at &lt;URL:<A HREF="ftp://hops.ag.utk.edu/ftp-wg/archives/">ftp://hops.ag.utk.edu/ftp-wg/archives/</A>>.</FONT></FONT><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>
-
-<P><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",&nbsp; "MAY", and</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-"OPTIONAL" in this document are to be interpreted as</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-described in RFC 2119 [RFC 2119].</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;<FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>
-
-<P><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Expires 01 December 1998&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Page 1]</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;<FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>
-
-<P><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-INTERNET DRAFT&nbsp;&nbsp;&nbsp; FTP Internationalization&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-01 June, 1998</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>&nbsp;<FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>
-
-<P><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Abstract</FONT></FONT><FONT FACE="Courier New,Courier"><FONT SIZE=-1></FONT></FONT>
-
-<P><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The File Transfer Protocol, as defined in RFC 959 [RFC959]</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-and RFC 1123 Section 4 [RFC1123], is one of the oldest and</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-widely used protocols on the Internet. The protocol's primary</FONT></FONT>
-<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;ftp-wg-request@hops.ag.utk.edu>. Discussions of the bsp;&nbsp;&nbsp;&nbsp;
 character set, 7 bit ASCII, has served the protocol well</FONT></FONT>
 <BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 through the early growth years of the Internet. However, as</FONT></FONT>
