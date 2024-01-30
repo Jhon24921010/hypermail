@@ -1,31 +1,4 @@
-From ftp-wg-owner@hethmon.com Tue May 26 15:41 CDT 1998
-Received: from mail.hethmon.com (mail.hethmon.com [208.147.156.6])
-	by landfield.com (8.8.8/8.8.8) with SMTP id PAA28800
-	for <kent@landfield.com>; Tue, 26 May 1998 15:40:28 -0500 (CDT)
-Received: from mail (mail.hethmon.com [208.147.156.6] ) by mail.hethmon.com
-    (Hethmon Brothers Smtpd) ; Tue, 26 May 1998 16:33:06 -0400
-Received: from www.disa.mil (www.disa.mil [209.22.99.13] ) by mail.hethmon.com
-    (Hethmon Brothers Smtpd) ; Tue, 26 May 1998 16:32:45 -0400
-Received: from ftm.disa.mil by www.disa.mil (SMI-8.6/SMI-SVR4)
-	id QAA23321; Tue, 26 May 1998 16:15:57 -0400
-Message-ID: <356B25D6.2A1920CD@ftm.disa.mil>
-X-Mailer: Mozilla 4.03 [en] (WinNT; U)
-MIME-Version: 1.0
-Date: Tue, 26 May 1998 16:32:47 -0400
-X-OldDate:   Tue, 26 May 1998 16:28:07 -0400
-Sender: ftp-wg-owner <ftp-wg-owner@hethmon.com>
-X-Listname: ftp-wg@hethmon.com
-Reply-To: FTPEXT Working Group <ftp-wg@hethmon.com>
-From: Bill Curtin <curtinw@ftm.disa.mil>
-To: ftp-wg@hethmon.com
-Subject: Ftp-WG:   v5 of I18N draft
-Content-Type: multipart/mixed; boundary="=_AAAYDgAABLM1bB/O"
-X-Lines: 2201
-Content-Length: 205226     
-Status: OR
-
---=_AAAYDgAABLM1bB/O
-Content-Type: text/html; charset="us-ascii"
+charset="us-ascii"
 From ftp-wg-owner@hethmon.com Tue May 26 15:41 CDT 1998
 Received: from ftm.disa.mil by www.disa.mil (SMI-8.6/SMI-SVR4)
 	id QAA23321; Tue, 26 May 1998 16:15:57 -0400
