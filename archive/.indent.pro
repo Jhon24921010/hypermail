@@ -1,2 +1,0 @@
-npcs
--npsl -ns
